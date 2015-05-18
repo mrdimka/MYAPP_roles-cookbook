@@ -6,5 +6,5 @@ description      'Installs/Configures MyApp_roles'
 long_description 'Installs/Configures MyApp_roles'
 version          '0.1.2'
 
-depends "apt"
-depends "MyApp_mysqldb"
+depends 'apt'
+depends 'MyApp_mysqldb'

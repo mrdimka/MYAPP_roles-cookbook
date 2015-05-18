@@ -8,8 +8,8 @@
 #
 
 
-if ["debian", "ubuntu"].include?(node["platform"])
-	include_recipe 'apt'
+if ['debian', 'ubuntu'].include?(node['platform'])
+  include_recipe 'apt'
 end
 
 include_recipe 'MyApp_mysqldb' 
