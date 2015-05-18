@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-if ['debian', 'ubuntu'].include?(node['platform'])
+if %w(debian ubuntu).include?(node['platform'])
   include_recipe 'apt'
 end
 

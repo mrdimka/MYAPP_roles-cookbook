@@ -32,8 +32,7 @@ Style/EmptyLinesAroundBlockBody:
 # Cop supports --auto-correct.
 # Configuration parameters: SupportedStyles.
 Style/HashSyntax:
-  EnforcedStyle: hash_rockets
-
+  EnforcedStyle: ruby19
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles.
