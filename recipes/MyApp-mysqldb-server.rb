@@ -7,9 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-
 if ['debian', 'ubuntu'].include?(node['platform'])
   include_recipe 'apt'
 end
 
-include_recipe 'MyApp_mysqldb' 
+include_recipe 'MyApp_mysqldb'
